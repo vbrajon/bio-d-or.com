@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bio d'or</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/revolution-slider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="preloader"></div>
+
+      <!-- Main Header-->
+      <header class="main-header">
+        <!-- Main Box -->
+        <div class="main-box">
+          <div class="auto-container">
+            <div class="outer-container clearfix">
+              <!--Logo Box-->
+              <div class="logo-box">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+              </div>
+              <div class="menu" style="margin: 40px;float: right;text-transform: uppercase;font-size: 13px;">
+                <a style="color: #333333;margin-right: 40px;" onclick="window.scrollTo({ top: document.querySelector('.about-farm').getBoundingClientRect().top + window.scrollY - (window.scrollY === 0 ? 140 : 30), behavior: 'smooth' })">A propos</a>
+                <a style="color: #333333;margin-right: 40px;" onclick="window.scrollTo({ top: document.querySelector('.gallery-section').getBoundingClientRect().top + window.scrollY - (window.scrollY === 0 ? 140 : 30), behavior: 'smooth' })">Nos Produits</a>
+                <a style="color: #333333;margin-right: 40px;" onclick="window.scrollTo({ top: document.querySelector('.testimonial-section').getBoundingClientRect().top + window.scrollY - (window.scrollY === 0 ? 140 : 30), behavior: 'smooth' })">Nos partenaires</a>
+                <a style="color: #333333;" href="mailto:contact@bio-d-or.com">contact@bio-d-or.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End Main Header -->
+
+      <!--Main Slider-->
+      <section class="main-slider" id="scroll-section-one" data-start-height="900" data-slide-overlay="yes">
+        <div class="tp-banner-container">
+          <div class="tp-banner">
+            <ul>
+              <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/gallery/1.jpg" data-saveperformance="off" data-title="{{ 3 }}">
+                <img src="images/gallery/1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+
+                <div
+                  class="tp-caption sfl sfb tp-resizeme"
+                  data-x="center"
+                  data-hoffset="0"
+                  data-y="center"
+                  data-voffset="-150"
+                  data-speed="1500"
+                  data-start="500"
+                  data-easing="easeOutExpo"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.01"
+                  data-endelementdelay="0.3"
+                  data-endspeed="1200"
+                  data-endeasing="Power4.easeIn"
+                >
+                  <h2>{{ 1 }}</h2>
+                </div>
+
+                <div
+                  class="tp-caption sfr sfb tp-resizeme"
+                  data-x="center"
+                  data-hoffset="0"
+                  data-y="center"
+                  data-voffset="-70"
+                  data-speed="1500"
+                  data-start="500"
+                  data-easing="easeOutExpo"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.01"
+                  data-endelementdelay="0.3"
+                  data-endspeed="1200"
+                  data-endeasing="Power4.easeIn"
+                >
+                  <div class="big-text">{{ 2 }}</div>
+                </div>
+              </li>
+
+              <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/gallery/2.jpg" data-saveperformance="off" data-title="{{ 5 }}">
+                <img src="/images/gallery/2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" />
+
+                <div
+                  class="tp-caption sfr sfb tp-resizeme"
+                  data-x="left"
+                  data-hoffset="15"
+                  data-y="center"
+                  data-voffset="-10"
+                  data-speed="1500"
+                  data-start="500"
+                  data-easing="easeOutExpo"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.01"
+                  data-endelementdelay="0.3"
+                  data-endspeed="1200"
+                  data-endeasing="Power4.easeIn"
+                >
+                  <h3>{{ 4 }}</h3>
+                </div>
+              </li>
+            </ul>
+
+            <div class="tp-bannertimer"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--Intro Section-->
+      <section class="intro-section">
+        <div class="inner-part">
+          <div class="auto-container">
+            <div class="content-box">
+              <div class="inner-box">
+                <!--Section Title-->
+                <div class="sec-title-one">
+                  <h2>{{ 6 }}</h2>
+                </div>
+
+                <div class="row clearfix">
+                  <!--Content Column-->
+                  <div class="content-column col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                      <h3>{{ 7 }}</h3>
+                      <div class="text">{{ 8 }}</div>
+                      <a class="theme-btn btn-style-two" onclick="window.scrollTo({ top: document.querySelector('.gallery-section').getBoundingClientRect().top + window.scrollY - (window.scrollY === 0 ? 140 : 30), behavior: 'smooth' })">Tous les produits</a>
+                    </div>
+                  </div>
+                  <!--Content Column-->
+                  <div class="content-column col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner text-right wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                      <h3>{{ 9 }}</h3>
+                      <div class="text">{{ 10 }}</div>
+                      <a class="theme-btn btn-style-two" onclick="window.scrollTo({ top: document.querySelector('.gallery-section').getBoundingClientRect().top + window.scrollY - (window.scrollY === 0 ? 140 : 30), behavior: 'smooth' })">Tous les produits</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--About Farm Section-->
+      <section class="about-farm">
+        <div class="auto-container">
+          <!--Section Title-->
+          <div class="sec-title-two">
+            <h2>{{ 11 }}</h2>
+          </div>
+
+          <div class="row clearfix">
+            <!--Column-->
+            <div class="column col-lg-5 col-md-4 col-sm-12 col-xs-12">
+              <figure class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img src="images/gallery/3.jpg" alt="" /></figure>
+            </div>
+            <!--Column-->
+            <div class="column col-lg-7 col-md-8 col-sm-12 col-xs-12">
+              <div class="tabs-box tabs-style-one">
+                <div class="row clearfix">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <!--Tab Buttons-->
+                    <ul class="tab-buttons clearfix">
+                      <li class="tab-btn" data-tab="#tab-one"><span class="txt">{{ 12 }}</span></li>
+                      <li class="tab-btn active-btn" data-tab="#tab-two"><span class="txt">{{ 13 }}</span></li>
+                      <li class="tab-btn" data-tab="#tab-three"><span class="txt">{{ 14 }}</span></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <!--Tabs Content-->
+                    <div class="tabs-content">
+                      <!--Tab-->
+                      <div class="tab" id="tab-one">
+                        <h3>{{ 15 }}</h3>
+                        <div class="content">{{ 16 }}</div>
+                        <h5 class="author-name">{{ 17 }}</h5>
+                      </div>
+
+                      <!--Tab / Active Tab-->
+                      <div class="tab active-tab" id="tab-two">
+                        <h3>{{ 18 }}</h3>
+                        <div class="content">{{ 19 }}</div>
+                        <h5 class="author-name">{{ 20 }}</h5>
+                      </div>
+
+                      <!--Tab-->
+                      <div class="tab" id="tab-three">
+                        <h3>{{ 21 }}</h3>
+                        <div class="content">{{ 22 }}</div>
+                        <h5 class="author-name">{{ 23 }}</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Gallery Section-->
+      <section class="gallery-section">
+        <div class="auto-container">
+          <!--Section Title-->
+          <div class="sec-title-one">
+            <h2>{{ 24 }}</h2>
+          </div>
+
+          <div class="mixitup-gallery">
+            <!--Filter-->
+            <div class="filters text-center">
+              <ul class="filter-tabs filter-btns clearfix">
+                <li class="active filter" data-role="button" data-filter="all">{{ 25 }}</li>
+                <li class="filter" data-role="button" data-filter=".fruits">{{ 26 }}</li>
+                <li class="filter" data-role="button" data-filter=".vegetables">{{ 27 }}</li>
+              </ul>
+            </div>
+
+            <!--Filter List-->
+            <div class="filter-list row clearfix">
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all juices">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/6.jpg" title=""><img src="images/gallery/6.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 28 }}</a></h3>
+                      <div class="price">{{ 29 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all breads juices">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/7.jpg" title=""><img src="images/gallery/7.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 30 }}</a></h3>
+                      <div class="price">{{ 31 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all fruits vegetables">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/8.jpg" title=""><img src="images/gallery/8.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 32 }}</a></h3>
+                      <div class="price">{{ 33 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all fruits vegetables breads juices">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/9.jpg" title=""><img src="images/gallery/9.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 34 }}</a></h3>
+                      <div class="price">{{ 35 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all vegetables">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/10.jpg" title=""><img src="images/gallery/10.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 36 }}</a></h3>
+                      <div class="price">{{ 37 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Default Food Item-->
+              <div class="col-md-4 col-sm-6 col-xs-12 default-food-item mix mix_all all breads juices">
+                <div class="inner-box">
+                  <div class="image-box">
+                    <figure class="image">
+                      <a class="lightbox-image option-btn" data-fancybox-group="example-gallery" href="images/gallery/11.jpg" title=""><img src="images/gallery/11.jpg" alt="" /></a>
+                    </figure>
+                    <div class="lower-content">
+                      <h3><a href="shop.html">{{ 38 }}</a></h3>
+                      <div class="price">{{ 39 }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Testimonials Section-->
+      <section class="testimonial-section">
+        <div class="oval-cut"></div>
+
+        <div class="auto-container">
+          <div class="carousel-outer">
+            <div class="icon-box"><span class="flaticon-blocks-with-angled-cuts"></span></div>
+
+            <div class="single-item-carousel">
+              <!--Slide Item-->
+              <div class="slide-item">
+                <div class="text-content">{{ 40 }}</div>
+                <div class="quote-info">
+                  <figure class="author-thumb img-circle"><img class="img-circle" src="images/gallery/12.jpg" alt="" /></figure>
+                  <h4>{{ 41 }}</h4>
+                  <div class="designation">{{ 42 }}</div>
+                </div>
+              </div>
+
+              <!--Slide Item-->
+              <div class="slide-item">
+                <div class="text-content">{{ 43 }}</div>
+                <div class="quote-info">
+                  <figure class="author-thumb img-circle"><img class="img-circle" src="images/gallery/13.jpg" alt="" /></figure>
+                  <h4>{{ 44 }}</h4>
+                  <div class="designation">{{ 45 }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--sponsors style one-->
+      <section class="sponsors-style-one">
+        <div class="auto-container">
+          <!--Section Title-->
+          <div class="sec-title-one">
+            <h2>{{ 46 }}</h2>
+          </div>
+
+          <div class="sponsors-outer">
+            <!--Sponsors Carousel-->
+            <ul class="sponsors-carousel">
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/gallery/14.jpg" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/gallery/15.jpg" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/gallery/16.jpg" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/gallery/17.jpg" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/gallery/18.jpg" alt="" /></a>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--Main Footer / Footer Style One-->
+      <footer class="main-footer footer-style-one">
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+          <div class="auto-container">
+            <!--Copyright-->
+            <div class="copyright">Nous contactez - <a href="mailto:contact@bio-d-or.com">contact@bio-d-or.com</href></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/revolution.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--Google Map APi Key-->
+    <script src="http://maps.google.com/maps/api/js?key="></script>
+    <script src="js/map-script.js"></script>
+    <!--End Google Map APi-->
+  </body>
+</html>
