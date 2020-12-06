@@ -250,6 +250,13 @@
 				}
 			}
 		});
+		$('.sponsors-carousel a').fancybox({
+		  backFocus: false,
+		  hash: false,
+		  thumbs : {
+		    autoStart : true
+		  },
+		});
 	}
 
 	//Single Item Slider
@@ -363,7 +370,7 @@
 	if($('.filter-list').length){
 		$('.filter-list').mixItUp({});
 	}
-	
+
 	//Jquery Spinner / Quantity Spinner
 	if($('.quantity-spinner').length){
 		 $('.quantity-spinner .plus').on('click', function() {
